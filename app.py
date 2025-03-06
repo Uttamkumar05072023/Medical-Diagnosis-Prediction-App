@@ -3,7 +3,11 @@ import pickle
 
 # Change the title and icon of the page
 st.set_page_config(page_title="Disease Prediction", page_icon="🚑")
-st.image("icon.png",width=200)
+favicon_html = """
+<link rel="shortcut icon" href="icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icon.png">
+"""
+st.markdown(favicon_html, unsafe_allow_html=True)
 
 # Hiding Streamlit add-ons
 hide_st_style = """
