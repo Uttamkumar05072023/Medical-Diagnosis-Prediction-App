@@ -21,6 +21,7 @@ theme_style = """
             h1{color: light-dark(white,white) !important;}
             .st-emotion-cache-89jlt8{color: white;}
             .st-emotion-cache-5rimss{color:white;}
+            .st-emotion-cache-1104ytp{color:white;}
             </style>
             """
 st.markdown(theme_style,unsafe_allow_html=True)
