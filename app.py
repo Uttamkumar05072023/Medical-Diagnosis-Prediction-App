@@ -3,6 +3,7 @@ import pickle
 
 # Change the title and icon of the page
 st.set_page_config(page_title="Disease Prediction", page_icon="🚑")
+st.image("icon.png",width=200)
 
 # Hiding Streamlit add-ons
 hide_st_style = """
