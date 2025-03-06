@@ -10,6 +10,10 @@ hide_st_style = """
                 #MainMenu {visibility:hidden;}
                 footer {visibility: hidden;}
                 header {visibility: hidden;}
+                * {color: white;}
+                @media (prefers-color-scheme: dark){
+                    * {color: white;}
+                }
             </style>
             """
 st.markdown(hide_st_style,unsafe_allow_html=True)
