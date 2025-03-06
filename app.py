@@ -15,8 +15,11 @@ hide_st_style = """
 st.markdown(hide_st_style,unsafe_allow_html=True)
 theme_style = """
             <style>
-            h1{color: white;}
-            .st-emotion-cache-16idsys{color: white;}
+            :root {
+                color-scheme: light dark;
+            }
+            h1{color: light-dark(white,white) !important;}
+            .st-emotion-cache-89jlt8{color: white;}
             .st-emotion-cache-5rimss{color:white;}
             </style>
             """
