@@ -7,21 +7,20 @@ st.set_page_config(page_title="Disease Prediction", page_icon="🚑")
 # Hiding Streamlit add-ons
 hide_st_style = """
             <style>
-                #MainMenu {visibility:hidden;}
+                MainMenu {visibility:hidden;}
                 footer {visibility: hidden;}
                 header {visibility: hidden;}
-                * {
-                    color: white;
-                    backgroundColor: black;
-                }
-                @media (prefers-color-scheme: dark){
-                    * {color: white;}
-                }
             </style>
             """
 st.markdown(hide_st_style,unsafe_allow_html=True)
-
-# Adding background image
+theme_style = """
+            <style>
+            h1{color: white;}
+            .st-emotion-cache-16idsys{color: white;}
+            .st-emotion-cache-5rimss{color:white;}
+            </style>
+            """
+st.markdown(theme_style,unsafe_allow_html=True)
 background_image_url = "https://static.scientificamerican.com/sciam/cache/file/01C9741F-6F6D-4882-8217D92370325AA7_source.jpg"
 
 page_bg_img = f"""
