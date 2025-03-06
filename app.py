@@ -10,7 +10,10 @@ hide_st_style = """
                 #MainMenu {visibility:hidden;}
                 footer {visibility: hidden;}
                 header {visibility: hidden;}
-                * {color: white;}
+                * {
+                    color: white;
+                    backgroundColor: black;
+                }
                 @media (prefers-color-scheme: dark){
                     * {color: white;}
                 }
